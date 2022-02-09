@@ -16,7 +16,7 @@ sys_bit=$(uname -m)
 
 if [[ $sys_bit == "i386" || $sys_bit == "i686" ]]; then
 	v2ray_bit="32"
-elif [[ $sys_bit == "x86_64" ]]; then
+elif [[ $sys_bit == x86_64 ]]; then
 	v2ray_bit="64"
 else
 	echo -e " 
